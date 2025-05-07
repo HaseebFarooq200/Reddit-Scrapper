@@ -4,8 +4,6 @@
 
 # YARS (Yet Another Reddit Scraper)
 
-[![GitHub stars](https://img.shields.io/github/stars/datavorous/yars.svg?style=social&label=Stars&style=plastic)](https://github.com/datavorous/yars/stargazers)<br>
-
 </div>
 
 YARS is a Python package designed to simplify the process of scraping Reddit for posts, comments, user data, and other media. The package also includes utility functions. It is built using **Python** and relies on the **requests** module for fetching data from Reddit’s public API. The scraper uses simple `.json` requests, avoiding the need for official Reddit API keys, making it lightweight and easy to use.
@@ -158,15 +156,3 @@ for z in range(3):
         image_url = subreddit_posts[z]["thumbnail_url"]
     download_image(image_url)
 ```
-
-You can now use these techniques to explore and scrape data from Reddit programmatically.
-
-## Contributing
-
-Contributions are welcome! For feature requests, bug reports, or questions, please open an issue. If you would like to contribute code, please open a pull request with your changes.
-
-### Our Notable Contributors
-
-<a href="https://github.com/datavorous/yars/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=datavorous/yars" />
-
